@@ -58,8 +58,10 @@
             // 
             // btnQuickSort
             // 
-            btnQuickSort.BackColor = Color.FromArgb(255, 128, 128);
+            btnQuickSort.BackColor = Color.FromArgb(128, 128, 255);
             btnQuickSort.FlatStyle = FlatStyle.Popup;
+            btnQuickSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnQuickSort.ForeColor = SystemColors.ButtonHighlight;
             btnQuickSort.Location = new Point(18, 113);
             btnQuickSort.Name = "btnQuickSort";
             btnQuickSort.Size = new Size(144, 38);
@@ -70,7 +72,8 @@
             // 
             // txtOriginal
             // 
-            txtOriginal.Location = new Point(20, 193);
+            txtOriginal.BorderStyle = BorderStyle.FixedSingle;
+            txtOriginal.Location = new Point(20, 199);
             txtOriginal.Multiline = true;
             txtOriginal.Name = "txtOriginal";
             txtOriginal.Size = new Size(1042, 100);
@@ -78,6 +81,7 @@
             // 
             // txtSorted
             // 
+            txtSorted.BorderStyle = BorderStyle.FixedSingle;
             txtSorted.Location = new Point(20, 339);
             txtSorted.Multiline = true;
             txtSorted.Name = "txtSorted";
@@ -139,8 +143,10 @@
             // 
             // btnCocktailSort
             // 
-            btnCocktailSort.BackColor = Color.FromArgb(255, 255, 128);
+            btnCocktailSort.BackColor = Color.FromArgb(128, 128, 255);
             btnCocktailSort.FlatStyle = FlatStyle.Popup;
+            btnCocktailSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnCocktailSort.ForeColor = SystemColors.ButtonHighlight;
             btnCocktailSort.Location = new Point(318, 113);
             btnCocktailSort.Name = "btnCocktailSort";
             btnCocktailSort.Size = new Size(144, 38);
@@ -151,9 +157,10 @@
             // 
             // btnBubbleSort
             // 
-            btnBubbleSort.BackColor = Color.FromArgb(255, 192, 128);
+            btnBubbleSort.BackColor = Color.FromArgb(98, 98, 225);
             btnBubbleSort.FlatStyle = FlatStyle.Popup;
-            btnBubbleSort.ForeColor = SystemColors.ControlText;
+            btnBubbleSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnBubbleSort.ForeColor = SystemColors.ButtonHighlight;
             btnBubbleSort.Location = new Point(168, 113);
             btnBubbleSort.Name = "btnBubbleSort";
             btnBubbleSort.Size = new Size(144, 38);
@@ -164,8 +171,10 @@
             // 
             // btnInsertionSort
             // 
-            btnInsertionSort.BackColor = Color.FromArgb(128, 255, 128);
+            btnInsertionSort.BackColor = Color.FromArgb(98, 98, 225);
             btnInsertionSort.FlatStyle = FlatStyle.Popup;
+            btnInsertionSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnInsertionSort.ForeColor = SystemColors.ButtonHighlight;
             btnInsertionSort.Location = new Point(468, 113);
             btnInsertionSort.Name = "btnInsertionSort";
             btnInsertionSort.Size = new Size(144, 38);
@@ -176,8 +185,10 @@
             // 
             // btnHeapSort
             // 
-            btnHeapSort.BackColor = Color.FromArgb(128, 255, 255);
+            btnHeapSort.BackColor = Color.FromArgb(128, 128, 255);
             btnHeapSort.FlatStyle = FlatStyle.Popup;
+            btnHeapSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnHeapSort.ForeColor = SystemColors.ButtonHighlight;
             btnHeapSort.Location = new Point(618, 113);
             btnHeapSort.Name = "btnHeapSort";
             btnHeapSort.Size = new Size(144, 38);
@@ -188,8 +199,10 @@
             // 
             // btnShellSort
             // 
-            btnShellSort.BackColor = Color.FromArgb(128, 128, 255);
+            btnShellSort.BackColor = Color.FromArgb(98, 98, 225);
             btnShellSort.FlatStyle = FlatStyle.Popup;
+            btnShellSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnShellSort.ForeColor = SystemColors.ButtonHighlight;
             btnShellSort.Location = new Point(768, 113);
             btnShellSort.Name = "btnShellSort";
             btnShellSort.Size = new Size(144, 38);
@@ -200,8 +213,10 @@
             // 
             // btnGnomeSort
             // 
-            btnGnomeSort.BackColor = Color.FromArgb(255, 128, 255);
+            btnGnomeSort.BackColor = Color.FromArgb(128, 128, 255);
             btnGnomeSort.FlatStyle = FlatStyle.Popup;
+            btnGnomeSort.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnGnomeSort.ForeColor = SystemColors.ButtonHighlight;
             btnGnomeSort.Location = new Point(918, 113);
             btnGnomeSort.Name = "btnGnomeSort";
             btnGnomeSort.Size = new Size(144, 38);
@@ -252,7 +267,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Silver;
+            panel1.BackColor = Color.FromArgb(222, 222, 255);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(lblTime);
@@ -266,6 +281,7 @@
             // 
             // Form1
             // 
+            BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(1098, 637);
             Controls.Add(panel1);
             Controls.Add(label4);
